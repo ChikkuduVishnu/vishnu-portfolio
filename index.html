@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Vishnu Chikkudu — Software Engineer</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="bar"></div>
+    <header>
+        <div class="wrap bar">
+            <a class="logo" href="#top">vishnu<i>.</i>dev</a>
+            <nav id="nav"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a
+                    href="#experience">Experience</a><a href="#contact">Contact</a></nav>
+            <span><button class="ib" id="theme" aria-label="Toggle theme">◐</button><button class="ib" id="menu"
+                    aria-label="Menu">☰</button></span>
+        </div>
+    </header>
+
+    <main class="wrap" id="top">
+        <div class="hero">
+            <div>
+                <p class="eyebrow">Hello, I’m</p>
+                <h1><span>Vishnu Chikkudu</span></h1>
+                <p class="type"><b id="tw"></b><em></em></p>
+                <p class="lead">I build responsive web applications with React and Python-based solutions, with a focus
+                    on clean, maintainable code and scalable design.</p>
+                <a class="btn p" href="#projects">View my work →</a><button class="btn s" id="copy">Copy email</button>
+            </div>
+            <div class="avatar" aria-hidden="true">VC</div>
+        </div>
+        <div class="stats rv">
+            <div class="stat"><b>B.Tech</b><span>AI &amp; Machine Learning</span></div>
+            <div class="stat"><b>3</b><span>Languages</span></div>
+            <div class="stat"><b>2</b><span>Featured projects</span></div>
+            <div class="stat"><b>2026</b><span>Graduating</span></div>
+        </div>
+
+        <section id="about" class="rv">
+            <p class="eyebrow">About</p>
+            <h2>Engineer with an AI foundation</h2>
+            <div class="two">
+                <p style="color:var(--muted);margin:0">I’m a software engineer with a strong foundation in software
+                    development, web technologies and problem solving. I enjoy turning ideas into well-structured,
+                    maintainable applications and I’m always learning emerging technologies.</p>
+                <p style="color:var(--muted);margin:0">I have a solid understanding of RESTful APIs, version control and
+                    collaborative development practices. My B.Tech in Artificial Intelligence and Machine Learning gives
+                    me a data-driven perspective on the products I build.</p>
+            </div>
+        </section>
+
+        <section id="skills" class="rv">
+            <p class="eyebrow">Skills</p>
+            <h2>Tools I work with</h2>
+            <div class="tabs" id="stabs"></div>
+            <div class="chips" id="schips"></div>
+            <div class="grid" style="margin-top:28px">
+                <div class="card">
+                    <h3>Problem Solving</h3>
+                    <p>Breaking down complex problems into clear, testable steps.</p>
+                </div>
+                <div class="card">
+                    <h3>Communication</h3>
+                    <p>Clear collaboration across technical and non-technical teams.</p>
+                </div>
+                <div class="card">
+                    <h3>Time Management &amp; Adaptability</h3>
+                    <p>Prioritizing well and picking up new tools quickly.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="rv">
+            <p class="eyebrow">Projects</p>
+            <h2>Selected work</h2>
+            <div class="tabs" id="ptabs"></div>
+            <div class="grid" id="pgrid"></div>
+        </section>
+
+        <section id="experience" class="rv">
+            <p class="eyebrow">Experience &amp; Education</p>
+            <h2>My journey</h2>
+            <div class="tl card" style="border-left:2px solid var(--border);margin-bottom:20px">
+                <div class="row">
+                    <h3>AI Data Analyst Intern</h3><small>2018 – 2019</small>
+                </div>
+                <p>InAmigoes Foundation</p>
+                <div class="acc"><button id="acb">Show responsibilities ▾</button>
+                    <ul id="acl">
+                        <li>Collected, cleaned and validated datasets to improve data quality and analytical accuracy.
+                        </li>
+                        <li>Performed exploratory data analysis to identify patterns and generate actionable insights.
+                        </li>
+                        <li>Collaborated with cross-functional teams to support AI-driven decision making.</li>
+                        <li>Prepared reports and visual summaries for stakeholders.</li>
+                        <li>Contributed to documentation of data workflows and analytical processes.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="tl card" style="border-left:2px solid var(--border)">
+                <div class="row">
+                    <h3>B.Tech — Artificial Intelligence &amp; Machine Learning</h3><small>2022 – 2026</small>
+                </div>
+                <p>Built multiple web applications and applied Git-based version control across personal and
+                    collaborative projects.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="rv">
+            <p class="eyebrow">Contact</p>
+            <h2>Let’s work together</h2>
+            <div class="two">
+                <div class="card">
+                    <h3>Open to opportunities</h3>
+                    <p>I’m looking for software engineering roles. Send a message or reach out directly.</p>
+                    <a class="btn p" href="mailto:chikkuduv3@gmail.com">Email me</a>
+                    <a class="btn s" href="https://linkedin.com/in/vishnu-chikkudu-3762b32a5" target="_blank"
+                        rel="noopener">LinkedIn</a>
+                </div>
+                <div class="card"><label for="fn">Your name</label><input id="fn" placeholder="Jane Doe"><label
+                        for="fm">Message</label><textarea id="fm" rows="4" placeholder="Hi Vishnu…"></textarea><button
+                        class="btn p" id="send" style="margin:0">Send via email</button></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="wrap"><span>© <span id="y">2026</span> Vishnu Chikkudu</span><a href="#top"
+                style="color:var(--accent);text-decoration:none">Back to top ↑</a></div>
+    </footer>
+    <div id="modal">
+        <div class="card" id="mc"></div>
+    </div>
+    <div id="toast"></div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
